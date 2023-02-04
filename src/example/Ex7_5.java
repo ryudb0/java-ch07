@@ -45,6 +45,8 @@ class Buyer {
 		String list = "";
 		int sum = 0;
 		for(int i=0; i<cart.length; i++) {
+//			유효성을 자꾸 생각안한다.
+			if(cart[i] == null) break;
 			list += cart[i] + ",";
 			sum += cart[i].price;
 		}

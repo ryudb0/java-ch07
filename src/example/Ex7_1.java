@@ -60,6 +60,7 @@ class SutdaCard {
 //	Ex7_14
 //	외부에서 생성자를 못만들게 막아야하는데 여길 막아버리면 SutdaDeck에서 생성자를 사용할수가없다.
 //	어떻게 해야하지?
+//	멤버변수를 final로 만들면 변경이 불가하다.
 	
 	SutdaCard(int num, boolean isKwang) {
 		this.num = num;

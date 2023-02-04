@@ -6,6 +6,7 @@ public class Ex7_12 {
 //	지역변수에 private가 안된당
 	
 	
+	
 //	Ex7_13
 //  Math클래스는 static 클래스이므로 객체를 생성할 필요가없다.
 //	인스턴스 변수, 메서드 없음 
